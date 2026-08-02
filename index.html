@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="一個簡潔、舒服的個人網頁。">
+  <title>我的簡單網頁</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">簡單生活</a>
+    <nav aria-label="主要導覽">
+      <a href="#about">關於</a>
+      <a href="#features">特色</a>
+      <a href="#contact">聯絡</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, WORLD!</p>
+        <h1>把每個簡單的想法，<br><span>變成美好的作品。</span></h1>
+        <p class="intro">這是一個部署在 GitHub Pages 的簡單網頁。輕巧、清楚，也能在手機與電腦上舒適閱讀。</p>
+        <div class="actions">
+          <a class="button primary" href="#about">開始探索</a>
+          <a class="button secondary" href="https://github.com/DavidYHB" target="_blank" rel="noreferrer">我的 GitHub</a>
+        </div>
+      </div>
+      <div class="art" aria-hidden="true">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="glass-card">
+          <span>今日靈感</span>
+          <strong>保持好奇，持續創造。</strong>
+          <div class="line"></div>
+          <small>Make something wonderful.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section-label">ABOUT</p>
+      <h2>一個讓內容自在呼吸的空間</h2>
+      <p class="section-copy">沒有複雜的框架，只有清楚的 HTML 與 CSS。你可以自由修改文字、色彩和圖片，打造屬於自己的網站。</p>
+    </section>
+
+    <section class="features" id="features">
+      <article class="feature-card">
+        <span class="number">01</span>
+        <h3>簡潔設計</h3>
+        <p>運用留白與柔和色彩，讓重要內容自然成為視覺焦點。</p>
+      </article>
+      <article class="feature-card">
+        <span class="number">02</span>
+        <h3>響應式版面</h3>
+        <p>無論使用手機、平板或電腦，都能得到舒適的瀏覽體驗。</p>
+      </article>
+      <article class="feature-card">
+        <span class="number">03</span>
+        <h3>快速部署</h3>
+        <p>網站由 GitHub Pages 託管，每次推送更新後便會自動發布。</p>
+      </article>
+    </section>
+
+    <section class="contact" id="contact">
+      <div>
+        <p class="section-label">LET'S CREATE</p>
+        <h2>準備好開始下一個想法了嗎？</h2>
+      </div>
+      <a class="button light" href="mailto:hello@example.com">與我聯絡</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> 簡單生活</p>
+    <p>用心設計，透過 GitHub Pages 發布。</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
